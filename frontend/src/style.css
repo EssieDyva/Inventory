@@ -1,0 +1,67 @@
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+  --header-bg: #ececec;
+  --primary-color: #4c4cff;
+  --primary-dark: #0a0072;
+  --button-bg: #0a0072;
+  --button-text: #ffffff;
+  --search-border: #4c4cff;
+  --search-bg: #ffffff;
+  --search-shadow: rgba(0, 0, 255, 0.08);
+  --sidebar-bg: #5a52f2;
+  --sidebar-text: #ffffff;
+  --card-bg: #ffffff;
+  --card-shadow: rgba(0, 0, 0, 0.1);
+  --input-bg: #ffffff;
+  --input-border: #ddd;
+  --modal-overlay: rgba(0, 0, 0, 0.5);
+  --modal-bg: #ffffff;
+  --icon-fill: #ffffff;
+  --icon-fill-hover: #f0f0f0;
+}
+
+[data-theme="dark"] {
+  --bg: #121212;
+  --text: #e0e0e0;
+  --header-bg: #1e1e1e;
+  --primary-color: #6b21e6;
+  --primary-dark: #471598;
+  --button-bg: #6b21e6;
+  --button-text: #ffffff;
+  --search-border: #6b21e6;
+  --search-bg: #1e1e1e;
+  --search-shadow: rgba(124, 58, 237, 0.3);
+  --sidebar-bg: #6b21e6;
+  --card-bg: #2d2d2d;
+  --card-shadow: rgba(0, 0, 0, 0.4);
+  --badge-color: #ffffff;
+  --input-bg: #2d2d2d;
+  --input-border: #404040;
+  --modal-overlay: rgba(0, 0, 0, 0.8);
+  --modal-bg: #2d2d2d;
+  --icon-fill: #ffffff;
+  --icon-fill-hover: #f0f0f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  width: 100%;
+  font-family: "Kdam Thmor Pro", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  overflow: visible;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

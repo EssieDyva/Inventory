@@ -1,0 +1,1 @@
+export { default as SingleLibrary } from './SingleLibrary.vue'
